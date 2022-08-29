@@ -8,6 +8,6 @@ RUN yarn --frozen-lockfile
 # Copy the source files into the image
 COPY . .
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD yarn start
